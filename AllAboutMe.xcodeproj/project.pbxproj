@@ -13,6 +13,9 @@
 		8FCFCA16239847BE005A5338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFCA15239847BE005A5338 /* Assets.xcassets */; };
 		8FCFCA19239847BE005A5338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFCA18239847BE005A5338 /* Preview Assets.xcassets */; };
 		8FCFCA1C239847BE005A5338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FCFCA1A239847BE005A5338 /* LaunchScreen.storyboard */; };
+		8FCFCA2623984A28005A5338 /* FamilyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FCFCA2523984A28005A5338 /* FamilyView.swift */; };
+		DB72139B23998C9B00D44BDE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72139A23998C9B00D44BDE /* AVFoundation.framework */; };
+		DB72139D2399904800D44BDE /* monkey1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DB72139C2399904800D44BDE /* monkey1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		8FCFCA18239847BE005A5338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8FCFCA1B239847BE005A5338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FCFCA1D239847BE005A5338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FCFCA2523984A28005A5338 /* FamilyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyView.swift; sourceTree = "<group>"; };
+		DB72139A23998C9B00D44BDE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DB72139C2399904800D44BDE /* monkey1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = monkey1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB72139B23998C9B00D44BDE /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,7 @@
 			children = (
 				8FCFCA0E239847B9005A5338 /* AllAboutMe */,
 				8FCFCA0D239847B9005A5338 /* Products */,
+				DB72139923998C9B00D44BDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +64,7 @@
 		8FCFCA0E239847B9005A5338 /* AllAboutMe */ = {
 			isa = PBXGroup;
 			children = (
+				DB72139C2399904800D44BDE /* monkey1.mp3 */,
 				8FCFCA0F239847B9005A5338 /* AppDelegate.swift */,
 				8FCFCA11239847B9005A5338 /* SceneDelegate.swift */,
 				8FCFCA13239847B9005A5338 /* ContentView.swift */,
@@ -63,6 +72,7 @@
 				8FCFCA1A239847BE005A5338 /* LaunchScreen.storyboard */,
 				8FCFCA1D239847BE005A5338 /* Info.plist */,
 				8FCFCA17239847BE005A5338 /* Preview Content */,
+				8FCFCA2523984A28005A5338 /* FamilyView.swift */,
 			);
 			path = AllAboutMe;
 			sourceTree = "<group>";
@@ -73,6 +83,14 @@
 				8FCFCA18239847BE005A5338 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB72139923998C9B00D44BDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB72139A23998C9B00D44BDE /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FCFCA1C239847BE005A5338 /* LaunchScreen.storyboard in Resources */,
+				DB72139D2399904800D44BDE /* monkey1.mp3 in Resources */,
 				8FCFCA19239847BE005A5338 /* Preview Assets.xcassets in Resources */,
 				8FCFCA16239847BE005A5338 /* Assets.xcassets in Resources */,
 			);
@@ -146,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FCFCA2623984A28005A5338 /* FamilyView.swift in Sources */,
 				8FCFCA10239847B9005A5338 /* AppDelegate.swift in Sources */,
 				8FCFCA12239847B9005A5338 /* SceneDelegate.swift in Sources */,
 				8FCFCA14239847B9005A5338 /* ContentView.swift in Sources */,
